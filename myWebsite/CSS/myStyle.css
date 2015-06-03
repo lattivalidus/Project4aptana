@@ -1,0 +1,96 @@
+
+
+
+body {
+	background-image:url("../Pictures/blueBackground.jpg");
+	
+	
+	
+}
+
+
+
+nav {
+	padding:0;
+	margin:15px;
+	padding:5px;
+	background-color:white;
+	border-radius:15px;
+	clear:both;
+	
+}
+
+nav ul{							/*margin right and left auto does not center*/
+	display:block;
+	list-style-type:none;
+	text-align:center;
+}
+
+nav ul li{
+	display:inline-block;
+	border-style:solid;
+	border-width:3px;
+	border-color:#0033CC;
+	border-radius:15px;
+	background-color:#000099; 
+	width:100px;
+	text-align:center;
+	margin:5px;	
+}
+
+nav ul li a{
+	display:block;			/*display:block; allows you to specify a height */
+	margin:0 auto;			/*this makes the link take up the entire li block */
+	height:30px;				/*to make the tags fill the entire block, you have to set the height here instead of at the li level. I could not get the text to verical align, event with vertical-align:middle. Vertical-align:middle works if you use table-cell as the display type, but then I couldn't get it to center*/
+	border-width:3px;
+	border-color:#0033CC;
+	color:white;
+	text-decoration:none;
+}
+
+nav ul li:hover{
+	background-color:#0033CC;
+}
+nav ul li:active{
+	
+}
+
+
+#banner{
+	background-color:white;
+	margin:15px;
+	clear:both;
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;
+	
+}
+
+#bottomBanner {
+	background-color:white;
+	border-radius:15px;
+	margin:15px;
+	padding:15px;
+	clear:both;
+	height:100px;
+	
+}
+
+#contactMe {
+	float:left;
+	text-align:center;
+}
+
+#connectSocial {
+	float:right;
+	
+}
+
+#connectSocial ul{
+	text-align:center;
+}
+
+#connectSocial ul li{
+	display:inline-block;
+}
+

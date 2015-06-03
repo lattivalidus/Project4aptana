@@ -1,0 +1,17 @@
+
+#bloglist {
+	background-color:white;
+	margin:15px;
+	padding:15px;
+	border-radius:15px;
+}
+
+#bloglist li {
+	padding:10px;
+}
+
+.date {
+	text-align:center;
+	font-size:110%;
+	
+}
