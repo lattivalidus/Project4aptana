@@ -1,18 +1,16 @@
 /* This will be anything that is specific to the main page as opposed to the "mystyle" file*/
 
 #mainBody{
-	float:left; 
-
+	display:inline-block;
+	height:500px;
 	margin:15px;
 	width:100%;
 }
 
+/* should probably find a better way to use this image or may have to do different settings for different screen sized */
 #mainImage {
-	float:left; 
-	width:75%;
-	height:auto;
-	
-	
+	float:left;
+	width:810px;
 }
 
 #sideTracks {
