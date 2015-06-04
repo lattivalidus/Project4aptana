@@ -1,67 +1,63 @@
 /* This will be anything that is specific to the main page as opposed to the "mystyle" file*/
 
 #mainBody{
-	float:left;
+	float:left; 
+
 	margin:15px;
 	width:100%;
 }
 
 #mainImage {
-	float:left;
-	width:80%;
+	float:left; 
+	width:75%;
 	height:auto;
+	
 	
 }
 
 #sideTracks {
 	Background-color:#002EB8;
 	float:left;
-	width:20%;
 	text-align:center;
-	height:100%; /*still can't get this to work for some reason */
+	height:100%;
 }	
 	
 #sideTracks ul{
 	list-style-type:none;
-	
-	
+	margin:0;
+	padding:0;
 }
 	
 #sideTracks ul li{
-	padding:5px; 
-	
+	padding:5px;
+	height:25px;
+	width:150px;
+    cursor:pointer; 	
 }
 
 #sideTracks ul li a{
 	color:black;
 	text-decoration:none;
+	
 }
 
-#sideTracks ul {
-	margin:0;
-	padding:0;
+#sideTracks ul li:hover {
+	background-color:#0033CC;
+	position:relative;
 }
 
-#sideTracks .topMenu ul li .subMenu ul li {
-	margin:0 0 0 40;
-}
-
-.subMenu li {
-/*background color and other style attributes can be listed here, the important part is display:none as this keeps the list item from showing until you use the hover command below to display it */
-	display:none;		
-	background-color:#002EB8;
-	border:1px solid black;
-/*tried using margin and padding 0 to have it bump up against the other menu, no dice */
-}
-
-.topMenu .subMenu{			/*have to position here since the css will pull from both top and submenus */
+#sideTracks ul li ul {
+	display:none;
 	position:absolute;
-	float:left;				/*float:left makes the list float outside of the original container */
-	display:inline-block;	/*inline-block causes this to display to the right of menu instead of within */
-/*margin:auto; doesn't work here for positioning the sub menu next to the original*/
 }
 
-.topMenu:hover ul li{
+#sideTracks ul li:hover ul {
 	display:block;
-		
+	left:160px;
+	top:0px;
 }
+
+#sideTracks ul li ul li {
+	background-color:#002EB8;	
+}
+
