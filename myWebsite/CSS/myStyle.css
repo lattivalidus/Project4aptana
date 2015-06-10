@@ -3,7 +3,8 @@
 
 body {
 	background-image:url("../Pictures/blueBackground.jpg");
-	
+	padding:0;
+	margin:0;
 	
 	
 }
@@ -58,7 +59,6 @@ nav ul li:active{
 
 #banner{
 	background-color:white;
-	margin:15px;
 	clear:both;
 	text-align:center;
 	font-size:150%;
@@ -72,9 +72,6 @@ nav ul {			/*discovered that if you do margin and padding 0 you can center the l
 
 #bottomBanner {
 	background-color:white;
-	border-radius:15px;
-	margin:15px;
-	padding:15px;
 	clear:both;
 	height:100px;
 	

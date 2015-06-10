@@ -1,21 +1,35 @@
 /* This will be anything that is specific to the main page as opposed to the "mystyle" file*/
 
-#mainBody{
-	display:inline-block;
-	height:500px;
-	margin:15px;
-	width:100%;
+mainBody{
+	
 }
 
-/* should probably find a better way to use this image or may have to do different settings for different screen sized */
-#mainImage {
-	float:left;
-	width:810px;
+
+
+#homeBody{
+	display:inline-block;
+	height:600px;
+	width:100%;
+	margin:15px;
+	padding:0px;
+}
+
+
+#images {
+		
+}
+
+#image1{
+	
+}
+
+#image2{
+	
 }
 
 #sideTracks {
-	Background-color:#002EB8;
 	float:left;
+	Background-color:#002EB8;
 	text-align:center;
 	height:100%;
 }	
@@ -56,6 +70,6 @@
 }
 
 #sideTracks ul li ul li {
-	background-color:#002EB8;	
+	background-color:#33CCCC;	
 }
 
