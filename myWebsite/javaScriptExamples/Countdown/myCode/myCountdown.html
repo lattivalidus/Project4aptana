@@ -13,9 +13,23 @@
        margin: auto;
        border:1px solid black;
        padding:15px;
+       height:200px;
        text-align:center;
    	}
-   	h1 { font-size: 5em; }
+   	
+   	#time { 
+   		height:150px;
+   		font-size: 5em;
+   		display:none;
+   	}
+   	#inputArea {
+   		height:150px;
+   	}
+   	
+   	#actionContainer{
+   		display:none;
+   	}
+
   
   </style>
 </head>
@@ -25,16 +39,26 @@
 <body>
   <div id="container">
             
-      <h1 id="time">0:00</h1>
-      
-      <p>Enter time in minutes!</p>
-      
-      <div id="inputArea">
-      </div>
-      <div id="startStop">
-      	<p>stuff</p>
+      <div id="time">
       </div>
       
+
+      
+      <div id="inputTime">
+      	<p>Enter time in minutes!</p>
+      </div>
+      
+     <div id="actionContainer">
+      	
+      	
+      		<div id="pause">
+      		</div>
+      		<div id="resume">
+      		</div>
+      		<div id="reset">
+      		</div>
+      	
+     </div>
   </div> 
   <script src="myCountdown.js"></script>
 </body>
