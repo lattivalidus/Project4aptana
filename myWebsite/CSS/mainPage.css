@@ -1,30 +1,15 @@
 /* This will be anything that is specific to the main page as opposed to the "mystyle" file*/
 
 mainBody{
-	
+
 }
 
 
 
 #homeBody{
 	display:inline-block;
-	height:600px;
-	width:100%;
 	margin:15px;
 	padding:0px;
-}
-
-
-#images {
-		
-}
-
-#image1{
-	
-}
-
-#image2{
-	
 }
 
 #sideTracks {
@@ -32,12 +17,14 @@ mainBody{
 	Background-color:#002EB8;
 	text-align:center;
 	height:100%;
+	width:160px;
 }	
 	
 #sideTracks ul{
 	list-style-type:none;
 	margin:0;
 	padding:0;
+	
 }
 	
 #sideTracks ul li{
@@ -109,4 +96,26 @@ mainBody{
 	background-color:#33CC33;
 }
 
+#boxes{
+	float:right; 
+	width:80%;
+	
+}
 
+#ideas {
+	float:left;
+	width:300px;
+	height:300px;
+	border-color:white;
+	border-style:solid;
+	border-width:1px;
+	margin-left:30px;
+	margin-bottom:30px;
+	padding:15px;
+	color:white;
+	text-align:center;
+}
+
+#mouseClicks{
+	margin:15px;
+}

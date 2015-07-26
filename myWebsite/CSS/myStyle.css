@@ -1,14 +1,17 @@
-
+#banner{
+	background-color:white;
+	clear:both;
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;
+}
 
 
 body {
 	background-image:url("../Pictures/blueBackground.jpg");
 	padding:0;
 	margin:0;
-	
-	
 }
-
 
 
 nav {
@@ -18,13 +21,14 @@ nav {
 	background-color:white;
 	border-radius:15px;
 	clear:both;
-	
 }
 
 nav ul{							/*margin right and left auto does not center*/
 	display:block;
 	list-style-type:none;
 	text-align:center;
+	margin:0;					/*discovered that if you do margin and padding 0 you can center the list with list-style-type:none */
+	padding:0;
 }
 
 nav ul li{
@@ -54,20 +58,6 @@ nav ul li:hover{
 }
 nav ul li:active{
 	
-}
-
-
-#banner{
-	background-color:white;
-	clear:both;
-	text-align:center;
-	font-size:150%;
-	font-weight:bold;
-}
-
-nav ul {			/*discovered that if you do margin and padding 0 you can center the list with list-style-type:none */
-	margin:0;
-	padding:0;
 }
 
 #bottomBanner {
