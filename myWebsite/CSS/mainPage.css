@@ -1,7 +1,8 @@
 /* This will be anything that is specific to the main page as opposed to the "mystyle" file*/
 
 mainBody{
-
+	width:1105px;
+	text-align:center;
 }
 
 
@@ -13,7 +14,7 @@ mainBody{
 }
 
 #sideTracks {
-	float:left;
+	position:absolute;
 	Background-color:#002EB8;
 	text-align:center;
 	height:100%;
