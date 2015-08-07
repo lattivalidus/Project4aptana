@@ -6,10 +6,11 @@ function simpleAlert(){
 
 function compAlert(){
 	var betterWindow = window.open("", "New Browser Window", "width=300, height=300");
-	betterWindow.document.write("This is more complicated");
+	betterWindow.document.write("This message will self destruct in 5 seconds");
 	
-	setTimeout(function(){ betterWindow.close() }, 3000);
+	setTimeout(function(){ betterWindow.close() }, 5000);
 }
+
 
 
 // find a way to set the name of the window and maybe do something fun with it. Maybe do another example where they can't click on it.
@@ -89,8 +90,6 @@ document.onclick = function(){
     clicks ++;
     document.getElementById("mouseClicks").innerHTML = "Mouseclicks :"+clicks;
 }               
-
-
 
 
 
