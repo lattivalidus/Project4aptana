@@ -38,11 +38,17 @@ $(document).ready(function(){
 
 
 
+
+
 $(document).ready(function(){
    $("tr:even").css("background-color", "yellow");
 });
 
+//----------------------ready accordion------------------------
 
+$(document).on('ready', function(){
+        $("#accordion").accordion();
+    });
 
 //-----------------Weather-----------------------
 //$.ajax({

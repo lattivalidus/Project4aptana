@@ -1,0 +1,11 @@
+.off-canvas-wrap{
+    text-align:center;
+}
+
+.inner-wrap{
+    min-height:100%;
+}
+
+#test{
+    border:1px solid black;
+}    

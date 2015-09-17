@@ -1,0 +1,174 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="myFoundation.css">
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  
+  <!----------------------------------BODY-------------------------------->
+ 
+  <body>
+ 
+ <!----------------------------------Off Canvas Menu--------------------> 
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title">Foundation Programming</h1>
+      </section>
+
+
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Cool Foundation Stuff</label></li>
+        <li><a href="#">Stuff I thought was cool</a></li>
+        <li><a href="#">Anything else that I might have thought of</a></li>
+      </ul>
+    </aside>
+
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Users</label></li>
+        <li><a href="#">Hari Seldon</a></li>
+        <li><a href="#">...</a></li>
+      </ul>
+    </aside>
+
+    <section class="main-section">
+      <!-- content goes here -->
+      <p> So I started from scratch and started pulling foundation things from their site, this is where I will be looking at all of the functionality is involved with Foundation and playing with some of the cool stuff it offers</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      
+ <nav class="top-bar foundation-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+     <span data-tooltip class="has-tip" title="Try resizing your browser to see how the grid stacks"><h1 class="show-for-small-only"><a href="#">Small screen</a></h1></span>
+     <span data-tooltip class="has-tip" title="Try resizing your browser to see how the grid stacks"><h1 class="show-for-medium-only"><a href="#">Medium Screen</a></h1></span>
+     <span data-tooltip class="has-tip" title="Try resizing your browser to see how the grid stacks"><h1 class="show-for-large-only"><a href="#">Large screen</a></h1></span>
+    </li>
+  </ul>
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li><a  href="http://foundation.zurb.com/docs/"  target="_blank">Foundation Docs</a></li>
+      <li><a  href="http://codepen.io/ZURBFoundation/full/olduj/" target="_blank">Grid Example</a></li>
+      <li><a  href="http://codepen.io/ZURBFoundation/full/vKwHa/" target="_blank">Navigation Example</a></li>
+      <li class="active"><a  href="http://codepen.io/ZURBFoundation/full/AuvoL" target="_blank">Forms</a></li>
+      <li><a  href="http://codepen.io/ZURBFoundation/full/fcFnq" target="_blank">Interchange</a></li>
+    </ul>
+  </section>
+</nav>
+
+<div class="row">
+  <div class="small-12 columns">
+    <br>
+    <div data-alert class="alert-box radius secondary">
+      <a href="http://codepen.io/ZURBFoundation/full/AuvoL/" target="_blank">Try viewing this in a separate tab and resizing your browser to see how the grid stacks →</a>
+    <a href="#" class="close">&times;</a>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 small-centered columns">
+      <form>
+        <div class="row">
+          <div class="large-12 columns">
+            <label>Input Label
+              <input type="text" placeholder="Text here" />
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns">
+            <label>Input Label
+              <input type="text" placeholder="Text here" />
+            </label>
+          </div>
+          <div class="large-4 columns">
+            <label>Input Label
+              <input type="text" placeholder="Text here" />
+            </label>
+          </div>
+          <div class="large-4 columns">
+            <div class="row collapse">
+              <label>Input Label</label>
+              <div class="small-9 columns">
+                <input type="text" placeholder="Domain" />
+              </div>
+              <div class="small-3 columns">
+                <span class="postfix">.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <label>Select Box
+              <select>
+                <option value="husker">Husker</option>
+                <option value="starbuck">Starbuck</option>
+                <option value="hotdog">Hot Dog</option>
+                <option value="apollo">Apollo</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-6 columns">
+            <label>Choose Your Favorite</label>
+            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Squirtle</label>
+            <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Charmander</label>
+          </div>
+          <div class="large-6 columns">
+            <label>Check these out</label>
+            <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+            <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <label>Textarea Label
+              <textarea placeholder="small-12.columns"></textarea>
+            </label>
+          </div>
+        </div>
+      </form>
+  </div>
+</div>                 
+      
+    </section>
+
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

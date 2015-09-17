@@ -4,10 +4,14 @@
 
 }
 
+table{
+    table-layout:fixed;
+    width:100%;
+}
 
 .ideas {
-/*    display:inline-block; */
-   float:left;
+ /*   display:inline-block; */  /*this didn't work for some reason and cause the divs to stack like stairs. can't figure it out... */
+  float:left; 
     height:300px;
     width:300px;
     background-color:white;
@@ -15,15 +19,19 @@
     padding:10px;
     border-radius:15px;
 /*    text-align:center; */
+    position:relative   /* Made this div relative so that I can make the button class absolute and allow me to force it to the bottom of the div */
 }
 
 #highLight{
- float:left;
+ /*float:left;*/
  
  /*display:inline-block;*/
 /* border:1px solid black;   */
 }
 
 .disBut {
-    vertical-align:bottom;
+     position:absolute; /*the parent is position:relative, this combo allows me to place the div within the other relatively. */
+     bottom:0;
+     left:115px;
 }
+
